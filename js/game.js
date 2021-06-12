@@ -102,7 +102,6 @@ class Game{
                     for (var i = 0; i < fruitGroup.length; i++) {
                         if (fruitGroup.get(i).isTouching(players)) {
                             fruitGroup.get(i).destroy();
-                         
                             
                         }
                         
